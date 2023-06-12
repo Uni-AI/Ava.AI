@@ -1,0 +1,1 @@
+- [How to learn to code FAST using ChatGPT (it's a game changer seriously)](https://youtu.be/VznoKyh6AXs)
