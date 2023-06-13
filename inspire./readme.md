@@ -13,8 +13,14 @@
 - [10 ChatGPT Life Hacks - THAT’LL CHANGE YOUR LIFE !!](https://youtu.be/-fopYsgFdzc)
 - [How to make stunning powerpoint presentations using AI tools? chatGPT | Microsoft Power Point](https://youtu.be/8REbiC0QL94)
 - [Feathery Uses AI to Master Form Building](https://youtu.be/wDHdkuxIUdI)
-## Excel, spreadsheets:
+## Excel, Spreadsheets:
 - [Bring ChatGPT INSIDE Excel to Solve ANY Problem Lightning FAST](https://youtu.be/kQPUWryXwag)
+
+## Content Creation, Blogging:
+- [ChatGPT Tutorial - How to Create a Profitable Blog with AI (Step By Step)](https://youtu.be/VZFg3E0WzX4?list=PLLrM2tMukfwV5DaqXELWf80Ksu9B6vwh2)
+
+## Photo to Art, PrismaAI:
+- [ChatGPT, Explained: What to Know About OpenAI's Chatbot | WSJ Tech News Briefing](https://youtu.be/qqxdsooKggE)
 
 # Fundamentals:
 - [ChatGPT Tutorial - A Crash Course on Chat GPT for Beginners](https://youtu.be/JTxsNm9IdYU)
@@ -25,7 +31,8 @@
 - [This Will Make You Better than 99% ChatGPT Users](https://youtu.be/EYjG6i53-xk)
 
 ## playlist:
-- [AI Core Skills - by Liam Ottley](https://www.youtube.com/playlist?list=PL2V6IBDeR5YMPouQhwyfaen2abXDnAzLa)
+- [AI Core Skills - by: Liam Ottley](https://www.youtube.com/playlist?list=PL2V6IBDeR5YMPouQhwyfaen2abXDnAzLa)
+- [How to Use ChatGPT and AI - by: Adam Enfroy](https://www.youtube.com/playlist?list=PLLrM2tMukfwV5DaqXELWf80Ksu9B6vwh2)
 
 ## Prompt Engineering:
 - [This Odd ChatGPT Skill Pays $335,000/year](https://youtu.be/k13v8jp8H5o)
@@ -33,3 +40,7 @@
 
 # Advanced:
 - [Complete ChatGPT Tutorial - [Become A Power User in 30 Minutes]](https://youtu.be/jHv63Uvk5VA)
+
+# Ecosystem:
+## Midjourney
+- [How AI Tools Like ChatGPT and Midjourney Can Boost Work Productivity | WSJ Your Money Briefing](https://youtu.be/GcKF4mJX8WI)
