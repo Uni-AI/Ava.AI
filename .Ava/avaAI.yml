@@ -1,0 +1,28 @@
+---
+# **Todo**: Make it automatically get {{name}} from {{repo}} using regex! This way I don't need an extra name field.
+- hosts: localhost
+  vars:
+    ava: "ava/"
+    knowledge: "ava/.knowledge/"
+    ecosystem: "ava/ecosystem/"
+    provider: "ava/provider/"
+    repo: [
+      { subdir: "{{ava}}", repo: "git@github.com:Uni-AI/Ava.AI.git", name: "Ava.AI"},
+      { subdir: "{{ava}}", repo: "git@github.com:Uni-AI/SoftwareEngineering.AI.git", name: "SoftwareEngineering.AI"},
+      { subdir: "{{knowledge}}", repo: "git@github.com:Uni-AI/AI.index.git", name: "AI.index"},
+      { subdir: "{{ecosystem}}", repo: "git@github.com:Uni-AI/AMD.AI.git", name: "AMD.AI"},
+      { subdir: "{{ecosystem}}", repo: "git@github.com:Uni-AI/Nvidia.AI.git", name: "Nvidia.AI"},
+      { subdir: "{{ecosystem}}", repo: "git@github.com:Uni-AI/Microsoft.AI.git", name: "Microsoft.AI"},
+      { subdir: "{{provider}}", repo: "git@github.com:Uni-AI/ChatGPT.Ava.git", name: "ChatGPT.Ava"},
+      { subdir: "{{provider}}", repo: "git@github.com:Uni-AI/GitHub-Copilot.Ava.git", name: "GitHub-Copilot.Ava"},
+      ]
+  tasks:
+  - debug:
+      msg: "{{item.name}}"
+    loop: "{{repo}}"
+
+  - name: Git checkout
+    ansible.builtin.git:
+      repo: "{{item.repo}}"
+      dest: "{{ lookup('ansible.builtin.env', 'HOME') }}/src/{{item.subdir}}{{item.name}}"
+    loop: "{{repo}}"
