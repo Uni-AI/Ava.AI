@@ -3,12 +3,13 @@
 - hosts: localhost
   vars:
     ava: "ava/"
-    knowledge: "ava/.knowledge/"
+    knowledge: "ava/knowledge/"
     ecosystem: "ava/ecosystem/"
     provider: "ava/provider/"
     repo: [
       { subdir: "{{ava}}", repo: "git@github.com:Uni-AI/Ava.AI.git", name: "Ava.AI"},
-      { subdir: "{{ava}}", repo: "git@github.com:Uni-AI/SoftwareEngineering.AI.git", name: "SoftwareEngineering.AI"},
+      { subdir: "{{knowledge}}", repo: "git@github.com:Uni-AI/Knowledge.graph.git", name: "Knowledge.graph"},
+      { subdir: "{{knowledge}}", repo: "git@github.com:Uni-AI/SoftwareEngineering.AI.git", name: "SoftwareEngineering.AI"},
       { subdir: "{{knowledge}}", repo: "git@github.com:Uni-AI/AI.index.git", name: "AI.index"},
       { subdir: "{{ecosystem}}", repo: "git@github.com:Uni-AI/AMD.AI.git", name: "AMD.AI"},
       { subdir: "{{ecosystem}}", repo: "git@github.com:Uni-AI/Nvidia.AI.git", name: "Nvidia.AI"},
