@@ -54,3 +54,9 @@
 
 # channel:
 - [code_your_own_AI](https://www.youtube.com/@code4AI)
+
+# GPT Engineer
+- [How To Install GPT-Engineer👨‍💻- Build ENTIRE Apps With One Prompt! (Quick Setup Guide)](https://youtu.be/ceMuK0xUtSY)
+
+# GitHub Copilot
+- [Session 3 - SwiftUI Mobile App - Build an App with ChatGPT and GitHub Co-Pilot](https://youtu.be/xSb8ddeCpy4)
