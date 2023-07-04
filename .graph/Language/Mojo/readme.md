@@ -1,0 +1,1 @@
+- [Mojo🔥 Review: How good is the new programming language for AI?](https://youtu.be/32aVTyYICys)
